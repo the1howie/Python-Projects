@@ -7,7 +7,7 @@ See here: https://www.ocr.org.uk/Images/503195-programming-project-tasks-june-20
 
 In addition, I have included the rock, paper, scissors, lizard, Spock games that I have learned how to code here: https://realpython.com/courses/python-rock-paper-scissors-game/
 
-The games can be run individually, for example: `python dice_game.py`. However, I have intended for the players to use the `main_*.py` scripts to use as the main interaction with the games. 
+The games can be run individually, for example: `python dice_game.py`. My intention was, and still is for the players to use the `main_*.py` scripts to use as the main interaction with the games. 
 * `python main_one_player.py`
 * `python main_two_players.py`
 
