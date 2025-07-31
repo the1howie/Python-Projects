@@ -9,7 +9,7 @@ y = mx + m, where m must be rational.
 
 Solutions to this non-linear systems are:
 (-1, 0) - This is the point that the line must pass throught.
-((1-m^2)/(1+m^2), 2m/(1-m^2)(1+m^2)) - The x and y coordinate provide us with a
+((1-m^2)/(1+m^2), 2m/(1+m^2)) - The x and y coordinate provide us with a
 'formula' for generting Pythagorean triples.
 
 Conditions: m = k/n where k, n are positive integers with k < n AND gcd(k,n) = 1.
@@ -46,7 +46,7 @@ def generate_gradients(count: int = 10) -> Set:
 
 def extract_triple(m: Fraction) -> List:
     # solving the system of equations we have:
-    # x = a / c = (1 - m^2) /(1 + m^2)
+    # x = a / c = (1 - m^2) / (1 + m^2)
     # y = b / c = (2m) / (1 + m^2)
     # where c is the hypothenuse
     # a and b are the short sides of the right-angle triangle
