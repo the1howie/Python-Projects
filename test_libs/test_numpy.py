@@ -1,3 +1,6 @@
+# If the try / except does not work then run this manually,
+# pip install numpy
+
 try:
     import numpy
 except ImportError:
